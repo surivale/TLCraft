@@ -1,0 +1,27 @@
+package cz.tlkogama;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+public class TLCraft extends JFrame {
+	private static final long serialVersionUID = 1L;
+public static void main (String[] args) {
+	TLCraft game = new TLCraft();
+	game.init();
+  }
+private JFrame JFrame;
+private void init() {
+this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  this.setLayout(new BorderLayout());
+  this.setVisible(false);
+  this.setVisible(true);
+  setSize(887,482);
+  this.setTitle("TLCraft");
+  JPanel jPanel = new JPanel();
+  this.getContentPane().setBackground(Color.gray);
+  this.setResizable(false);
+ 
